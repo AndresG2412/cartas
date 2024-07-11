@@ -9,10 +9,10 @@ function App() {
       <div className="pt-18 pb-24 font-dancing-script">
         <Principal/>
       </div>
-      <div className="pb-36 font-dancing-script">
+      <div className="pt-4 pb-26 font-dancing-script">
         <Lugar/>
       </div>
-      <div className="pb-10 font-dancing-script">
+      <div className="pt-6 pb-10 font-dancing-script">
         <Confirmar/>
       </div>
     </>
