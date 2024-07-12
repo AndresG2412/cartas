@@ -1,15 +1,24 @@
+import bordet1 from "../imgs/BORDE-T1.png"
+import bordet2 from "../imgs/borde-recto-2.png"
+
 export default function confirmar() {
     return(
         <>
             <div className="text-center font-bold">
-                <h1 className="font-bold mx-20 text-4xl md:text-5xl text-center mt-12 mb-32">ESPERAMOS TU CONFIRMACION</h1>
+                <img src={bordet1} alt="borde_titulo1" className="mx-auto h-10 md:h-auto rotate-180 md:mt-32"/>
+                <h1 className="font-dancing-script font-extrabold mx-20 text-4xl md:text-5xl text-center mt-4 mb-4">ESPERAMOS TU CONFIRMACION</h1>
+                <img src={bordet1} alt="borde_titulo1" className="mx-auto mb-12 md:mb-20 h-10 md:h-auto"/>
+
+
+                <img src={bordet2} alt="borde_titulo1" className="mx-auto h-8 md:h-10 w-44 md:w-56"/>
                 <div className="mx-20">
-                    <h1 className="my-8 text-xl">La asistencia de la confirmacion se tomara en la entrada con Nombre y Apellido</h1>
-                    <h1 className="my-8 text-xl">Cada persona tendra una mesa y puesto asignado ademas de su comida incluida</h1>
-                    <h1 className="my-8 text-xl">En caso de tener dudas por favor contactar en el mismo boton siguiente y/o para confirmar</h1>
+                    <h1 className="font-dancing-script font-extrabold my-8 text-xl md:text-3xl">La asistencia de la confirmacion se tomara en la entrada con Nombre y Apellido</h1>
+                    <h1 className="font-dancing-script font-extrabold my-8 text-xl md:text-3xl">Cada persona tendra una mesa y puesto asignado ademas de su comida incluida</h1>
+                    <h1 className="font-dancing-script font-extrabold my-8 text-xl md:text-3xl">En caso de tener dudas por favor contactar en el mismo boton siguiente y/o para confirmar</h1>
                 </div>
+                <img src={bordet2} alt="borde_titulo1" className="mx-auto h-8 md:h-10 w-44 md:w-56 rotate-180"/>
                     <button
-                    class="border-[3px] border-black my-24 px-8 z-30 py-4 bg-blue-400 rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-blue-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_3px_2px_#121212;] hover:[text-shadow:2px_2px_2px_#121212] text-2xl"
+                    class="border-[2px] font-dancing-script font-bold  border-black my-24 px-8 z-30 py-4 bg-blue-400 rounded-2xl text-white relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-blue-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_3px_2px_#121212;] hover:[text-shadow:2px_2px_2px_#121212] text-2xl"
                     >
                     CONFIRMAR
                     </button>
