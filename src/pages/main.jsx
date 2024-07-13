@@ -1,4 +1,4 @@
-import foto from "../imgs/foto_gabi_2.png";
+import foto from "../imgs/foto_gabi_3.png";
 import bordet1 from "../imgs/BORDE-T1.png"
 import bordenombre from "../imgs/borde-nombre.png"
 
@@ -13,17 +13,17 @@ export default function Main() {
             
 
             
-            <img src={foto} alt="gabi" className="md:w-1/3 mx-auto"/>
+            <img src={foto} alt="gabi" className="md:w-1/3 mx-auto w-96"/>
             <h1 className="font-dancing-script text-center font-bold text-3xl md:text-5xl m-2 mb-4 md:mb-32 hidden md:block">
-    MARIA VICTORIA GAVIRIA BOLAÑOS
+            Maria Victoria Gaviria Bolaños
 </h1>
 <h1 className="font-dancing-script text-center font-bold text-3xl md:text-5xl m-2 mb-0 md:mb-32 block md:hidden">
-    MARIA VICTORIA
+    Maria Victoria
 </h1>
 <h1 className="font-dancing-script text-center font-bold text-3xl md:text-5xl m-2 md:mb-32 block md:hidden">
-    GAVIRIA BOLAÑOS
+    Gaviria Bolaños
 </h1>
-            <img src={bordenombre} alt="borde_nombre" className="mx-auto mb-20 md:hidden"/>
+            <img src={bordenombre} alt="borde_nombre" className="mx-auto mb-20 md:hidden w-1/2"/>
             <div className="block md:hidden font-dancing-script font-bold text-center mt-12">
                 {/* Contenido solo visible en móviles */}
                 <p className="my- font-bold text-3xl mx-24">"Con gran emoción y alegría, dejo atrás la niñez para iniciar una nueva etapa como mujer y te invito a formar parte de mi celebración de 15 años y compartir este momento tan especial."</p>
