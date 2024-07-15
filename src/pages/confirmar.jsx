@@ -2,6 +2,14 @@ import bordet1 from "../imgs/BORDE-T1.png"
 import bordet2 from "../imgs/borde-recto-2.png"
 
 export default function confirmar() {
+
+    const redirectToWhatsApp = () => {
+        const phoneNumber = '3157870130';
+        const message = encodeURIComponent('Confirmo que estaré en el evento! ');
+        const url = `https://wa.me/+57${phoneNumber}?text=${message}`;
+        window.location.href = url;
+    };
+
     return(
         <>
             <div className="text-center font-bold">
@@ -18,7 +26,8 @@ export default function confirmar() {
                 </div>
                 <img src={bordet2} alt="borde_titulo1" className="mx-auto h-8 md:h-10 w-44 md:w-56 rotate-180"/>
                     <button
-                    class="border-[2px] font-dancing-script font-bold  border-black my-24 px-8 z-30 py-4 bg-pink-500 rounded-2xl text-white relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-pink-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_3px_2px_#121212;] hover:[text-shadow:2px_2px_2px_#121212] text-2xl"
+                    class="border-[2px] font-dancing-script font-bold  border-black my-24 px-8 z-30 py-4 bg-amber-500 rounded-2xl text-white relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-amber-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_3px_2px_#121212;] hover:[text-shadow:2px_2px_2px_#121212] text-2xl"
+                    onClick={redirectToWhatsApp}
                     >
                     CONFIRMAR
                     </button>
