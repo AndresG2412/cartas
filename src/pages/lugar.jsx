@@ -14,13 +14,13 @@ export default function Lugar() {
                     <img src={centro} alt="img_lugar" className="cursor-pointer w-72 md:w-96 h-72 md:h-96 mx-auto mb-16 md:mb-0"/>
                 </a>
                 <div className="my-auto md:ml-40">
-                    <p className="font-dancing-script font-bold text-xl md:text-3xl">Pitalito - Huila</p>
+                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">Pitalito - Huila</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
-                    <p className="font-dancing-script font-bold text-xl md:text-3xl">17 de Agosto a las 06:00 PM</p>
+                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">17 de Agosto a las 06:00 PM</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
-                    <p className="font-dancing-script font-bold text-xl md:text-3xl">Lugar de eventos 828</p>
+                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">Lugar de eventos 828</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
-                    <p className="font-dancing-script font-bold text-xl md:text-3xl">Lluvia de sobres</p>
+                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">Lluvia de sobres</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
                 </div>
             </div>
