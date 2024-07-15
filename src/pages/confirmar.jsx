@@ -4,7 +4,7 @@ import bordet2 from "../imgs/borde-recto-2.png"
 export default function confirmar() {
 
     const redirectToWhatsApp = () => {
-        const phoneNumber = '3157870130';
+        const phoneNumber = '3106873378';
         const message = encodeURIComponent('Confirmo que estaré en el evento! ');
         const url = `https://wa.me/+57${phoneNumber}?text=${message}`;
         window.location.href = url;
