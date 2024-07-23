@@ -11,9 +11,7 @@ export default function Main() {
             </h1>
             <img src={bordet1} alt="borde_titulo1" className="mx-auto md:mb-20 mb-12 h-10 md:h-auto"/>
             
-
-            
-            <img src={foto} alt="gabi" className="md:w-1/3 mx-auto w-96"/>
+            <img src={foto} alt="gabi" className="md:w-1/3 mx-auto w-96 drop-shadow-custom"/>
             <h1 className="font-dancing-script text-center font-bold text-3xl md:text-5xl m-2 mb-4 md:mb-32 hidden md:block">
             Maria Victoria Gaviria Bolaños
 </h1>

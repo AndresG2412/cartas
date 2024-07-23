@@ -16,7 +16,7 @@ export default function Lugar() {
                 <div className="my-auto md:ml-40">
                     <p className="font-dancing-script font-bold text-2xl md:text-3xl">Pitalito - Huila</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
-                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">17 de Agosto a las 06:00 PM</p>
+                    <p className="font-dancing-script font-bold text-2xl md:text-3xl">17 de Agosto a las 08:00 PM</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>
                     <p className="font-dancing-script font-bold text-2xl md:text-3xl">Lugar de eventos 828</p>
                     <img src={borderecto} alt="borde_recto1" className="h-4 md:w-96 mx-auto mb-8"/>

@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'dancing-script': ['Dancing Script', 'cursive'],
       },
+      dropShadow: {
+        'custom': '5px 8px 10px orange',
+      }
     },
   },
   plugins: [],
