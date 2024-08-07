@@ -11,6 +11,8 @@ export default {
       },
       dropShadow: {
         'custom': '5px 8px 10px orange',
+        '2-custom': '0px 2px 4px orange',
+        'black-custom': '0px 3px 2px black',
       }
     },
   },

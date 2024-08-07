@@ -6,15 +6,9 @@ function App() {
 
   return (
     <>
-      <div >
         <Principal/>
-      </div>
-      <div >
         <Lugar/>
-      </div>
-      <div >
         <Confirmar/>
-      </div>
     </>
   )
 }
